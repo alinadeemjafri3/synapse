@@ -1,0 +1,29 @@
+# Environment — NEVER commit API keys
+.env
+.env.*
+!.env.example
+
+# Python
+backend/venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# Frontend build artifacts (Railway builds these itself)
+frontend/node_modules/
+frontend/dist/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
