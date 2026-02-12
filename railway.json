@@ -4,7 +4,6 @@
     "builder": "DOCKERFILE"
   },
   "deploy": {
-    "startCommand": "cd backend && python main.py",
     "restartPolicyType": "ON_FAILURE"
   }
 }
